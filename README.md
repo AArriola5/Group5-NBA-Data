@@ -1,7 +1,7 @@
 # Group5-NBA-Data
  Group project for CS 431
 
-Adrian Arriola
+**Adrian Arriola**
 ```
 Came up with idea to use a sports team for data
 Input data for Lakers, and Teams from G2 through P6
@@ -9,12 +9,18 @@ Input data for Lakers, and Teams from G2 through P6
 ![TeamStats](Images/TeamStats.png)
 ![LakersStats](Images/LakersStats.png)
 
-Adrian Delfin
+**Adrian Delfin**
 ```
 Found data for NBA players and teams
 ```
 
-Joshua Chung
+**Joshua Chung**
 ```
 Created document page and organized columns
 ```
+
+**References:**
+
+https://www.nba.com/teams (Team and Player Stats)
+
+https://sports.yahoo.com/nba/teams/ (Team and Player Stats)
