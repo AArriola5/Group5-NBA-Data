@@ -17,6 +17,7 @@ Found data for NBA players and teams
 **Joshua Chung**
 ```
 Created document page and organized columns
+Added additional tables/columns for general managers and NBA divisions
 ```
 
 **References:**
@@ -24,3 +25,5 @@ Created document page and organized columns
 https://www.nba.com/teams (Team and Player Stats)
 
 https://sports.yahoo.com/nba/teams/ (Team and Player Stats)
+
+https://en.wikipedia.org/wiki/List_of_National_Basketball_Association_general_managers (Team GMs)
