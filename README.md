@@ -151,6 +151,8 @@ Answer:
 | Gary Payton II | Golden State Warriors | Dec 01, 1992 |
 
 10. "Get the average height, weight, age, and experience of each team in the pacific division."
+
+Answer:
 | Team | Average Age | Average Experience |
 | --- | --- | --- | 
 | Sacramento Kings | 25.76 | 5.07 |
