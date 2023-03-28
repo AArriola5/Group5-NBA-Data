@@ -76,6 +76,18 @@ Answer:
 | Mason Plumlee | Forward-Center | 7-0 | 254 lbs | Los Angeles Clippers |
 | Mo Bamba | Guard | 7-0 | 231 lbs | Los Angeles Lakers |
 
+5. "Give the names team names, age and age as a rookie, of the players who were 25 or older in their rookie years"
+
+Answer:
+
+| Player Name | Team | Age | Years of Experience | Age as a Rookie |
+| --- | --- | --- | --- | --- |
+| Torrey Craig | Phoenix Suns | 32 | 5 | 27 |
+| Damion Lee | Phoenix Suns | 30 | 5 | 25 |
+| Jock Landale | Phoenix Suns | 27 | 1 | 26 |
+| Ish Wainwright | Phoenix Suns | 28 | 1 | 27 |
+| Xavier Moon | Los Angeles Clippers | 28 | 1 | 27 |
+
 **References:**
 
 https://www.nba.com/teams (Team and Player Stats)
