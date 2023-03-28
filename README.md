@@ -76,10 +76,6 @@ Answer:
 | Mason Plumlee | Forward-Center | 7-0 | 254 lbs | Los Angeles Clippers |
 | Mo Bamba | Guard | 7-0 | 231 lbs | Los Angeles Lakers |
 
-# Data
-![TeamStats](images/TeamStats.png)
-![LakersStats](images/LakersStats.png)
-
 **References:**
 
 https://www.nba.com/teams (Team and Player Stats)
