@@ -17,7 +17,20 @@ Completed the data tables for the team rosters with the player's information
 ```
 Created document page and organized columns
 Added additional tables/columns for general managers and NBA divisions
+Created eerd
 ```
+
+# EERD
+![hw3eerd](https://user-images.githubusercontent.com/90055401/228392004-dbb54dbd-6db5-4b45-bb45-d8b08d103a96.PNG)
+
+Conference, Division, and Team primary keys will be name.
+
+Employees might have non unique names, so primary key can be (name, team).
+
+Arena primary key should be a unique arena name.
+
+Only attributes that can be null or school attributes for Employees.
+
 
 # Queries (in English)
 1. "Get the name of each Pacific team and the count of players in each team."
