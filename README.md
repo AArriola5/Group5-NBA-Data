@@ -39,7 +39,7 @@ Answer:
 | --- | --- | --- |
 | Max Christie | 10 | Guard |
 | Scotty Pippin Jr. | 14 | Guard |
-| Cole Swier | 20 | Forward |
+| Cole Swider | 20 | Forward |
 
 3. "Get the Player Name, Age, and Team of players who were born during and after the year 2000"
 
@@ -76,7 +76,7 @@ Answer:
 | Mason Plumlee | Forward-Center | 7-0 | 254 lbs | Los Angeles Clippers |
 | Mo Bamba | Guard | 7-0 | 231 lbs | Los Angeles Lakers |
 
-5. "Give the names team names, age and age as a rookie, of the players who were 25 or older in their rookie years"
+5. "Give the names team names, age and age as a rookie, of the players who were 25 or older in their rookie years."
 
 Answer:
 
@@ -87,6 +87,17 @@ Answer:
 | Jock Landale | Phoenix Suns | 27 | 1 | 26 |
 | Ish Wainwright | Phoenix Suns | 28 | 1 | 27 |
 | Xavier Moon | Los Angeles Clippers | 28 | 1 | 27 |
+
+6. "Give the names, team, and colleges of players that went to the same college as Warrior's GM Bob Myers."
+
+Answer:
+
+| Player Name | Team | College |
+| --- | --- | --- |
+| Russell Westbrook | Los Angeles Clippers | UCLA |
+| Norman Powell | Los Angeles Clippers | UCLA |
+| Kevon Looney | Golden State Warriors | UCLA |
+
 
 **References:**
 
