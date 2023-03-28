@@ -102,6 +102,7 @@ Answer:
 7. "Get the player's name, team, postion, height, and weight of all centers that are 6'10" or shorter."
 
 Answer:
+
 | Player Name | Team | Postion | Height | Weight |
 | --- | --- | --- | --- | --- |
 | Chimezie Metu | Sacramento Kings | Forward-Center | 6-9 | 225 |
@@ -111,6 +112,8 @@ Answer:
 | Devon Reed | Los Angeles Lakers | Center | 6-5 | 206 |
 
 8. "Get the player's name, team, postion, height, and weight of all players that are over 6'0" tall but under 200 pounds."
+
+Answer:
 
 | Player Name | Team | Postion | Height | Weight |
 | --- | --- | --- | --- | --- |
@@ -135,6 +138,17 @@ Answer:
 | Scotty Pippen Jr. | Los Angeles Lakers | Guard | 6-1 | 170 |
 | Austin Reaves | Los Angeles Lakers | Guard | 6-5 | 197 |
 | Dennis Schroder | Los Angeles Lakers | Guard | 6-1 | 172 |
+
+9. "Give the player name, team and Date of birth of players born the same year as the Phoenix Suns' stadium opened."
+
+Answer:
+
+| Player Name | Team | Date of Birth |
+| --- | --- | --- |
+| Harrison Barnes | Sacramento Kings | May 30, 1992 |
+| Damion Lee | Phoenix Suns | Oct 21, 1992 |
+| Bismack Biyombo | Phoenix Suns | Aug 28, 1992 |
+| Gary Payton II | Golden State Warriors | Dec 01, 1992 |
 
 **References:**
 
