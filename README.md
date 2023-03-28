@@ -105,8 +105,10 @@ Answer:
 | Player Name | Team | Postion | Height | Weight |
 | --- | --- | --- | --- | --- |
 | Chimezie Metu | Sacramento Kings | Forward-Center | 6-9 | 225 |
+| Bismack Biyombo | Phoenix Suns | Center | 6-8 | 255 |
 | JaMychal Greem | Golden State Warriors | Forward-Center | 6-9 | 227 |
 | Anthony Davis | Los Angeles Lakers | Forward-Center | 6-10 | 253 |
+| Devon Reed | Los Angeles Lakers | Center | 6-5 | 206 |
 
 **References:**
 
