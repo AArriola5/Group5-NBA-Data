@@ -150,6 +150,15 @@ Answer:
 | Bismack Biyombo | Phoenix Suns | Aug 28, 1992 |
 | Gary Payton II | Golden State Warriors | Dec 01, 1992 |
 
+10. "Get the average height, weight, age, and experience of each team in the pacific division."
+| Team | Average Age | Average Experience |
+| --- | --- | --- | 
+| Sacramento Kings | 25.76 | 5.07 |
+| Phoenix Suns | 28.25 | 6.38 |
+| Los Angeles Clippers | 28.47 | 7.67 | 
+| Golden State Warriors | 26.94  | 6.64 | 
+| Los Angeles Lakers | 25.63 | 5.92 | 
+
 **References:**
 
 https://www.nba.com/teams (Team and Player Stats)
