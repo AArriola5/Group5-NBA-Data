@@ -110,6 +110,23 @@ Answer:
 | Anthony Davis | Los Angeles Lakers | Forward-Center | 6-10 | 253 |
 | Devon Reed | Los Angeles Lakers | Center | 6-5 | 206 |
 
+8. "Get the player's name, team, postion, height, and weight of all players that are over 6'0" tall but under 200 pounds."
+| Player Name | Team | Postion | Height | Weight |
+| --- | --- | --- | --- | --- |
+| De'Aaron Fox | Sacramento Kings | Guard | 6-3 | 185 |
+| Kevin Huerter | Sacramento Kings | Guard-Forward | 6-7 | 198 |
+| Keon Ellis | Sacramento Kings | Guard | 6-3 | 175 |
+| Landry Shamet | Phoenix Suns | Guard | 6-4 | 190 |
+| Cameron Payne | Phoenix Suns | Guard | 6-1 | 183 |
+| Saben Lee | Phoenix Suns | Guard | 6-2 | 183 |
+| Brandon Boston | Los Angeles Clippers | Guard | 6-6 | 188 |
+| Bones Hyland | Los Angeles Clippers | Guard | 6-2 | 169 |
+| Jason Preston | Los Angeles Clippers | Guard | 6-3 | 181 |
+| Ryan Rollins | Golden State Warriors | Guard | 6-3 | 180 |
+| Jordan Poole | Golden State Warriors | Guard | 6-4 | 194 |
+| Gary Payton II | Golden State
+
+
 **References:**
 
 https://www.nba.com/teams (Team and Player Stats)
