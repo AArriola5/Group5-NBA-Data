@@ -10,6 +10,7 @@ Input data for Lakers, and Teams from G2 through P6
 **Adrian Delfin**
 ```
 Found data for NBA players and teams
+Completed the data tables for the team rosters with the player's information
 ```
 
 **Joshua Chung**
@@ -76,7 +77,7 @@ Answer:
 | Mason Plumlee | Forward-Center | 7-0 | 254 lbs | Los Angeles Clippers |
 | Mo Bamba | Guard | 7-0 | 231 lbs | Los Angeles Lakers |
 
-5. "Give the names team names, age and age as a rookie, of the players who were 25 or older in their rookie years."
+5. "Get the names team names, age and age as a rookie, of the players who were 25 or older in their rookie years."
 
 Answer:
 
@@ -88,7 +89,7 @@ Answer:
 | Ish Wainwright | Phoenix Suns | 28 | 1 | 27 |
 | Xavier Moon | Los Angeles Clippers | 28 | 1 | 27 |
 
-6. "Give the names, team, and colleges of players that went to the same college as Warrior's GM Bob Myers."
+6. "Get the names, team, and colleges of players that went to the same college as Warrior's GM Bob Myers."
 
 Answer:
 
@@ -98,6 +99,14 @@ Answer:
 | Norman Powell | Los Angeles Clippers | UCLA |
 | Kevon Looney | Golden State Warriors | UCLA |
 
+7. "Get the player's name, team, postion, height, and weight of all centers that are 6'10" or shorter."
+
+Answer:
+| Player Name | Team | Postion | Height | Weight |
+| --- | --- | --- | --- | --- |
+| Chimezie Metu | Sacramento Kings | Forward-Center | 6-9 | 225 |
+| JaMychal Greem | Golden State Warriors | Forward-Center | 6-9 | 227 |
+| Anthony Davis | Los Angeles Lakers | Forward-Center | 6-10 | 253 |
 
 **References:**
 
