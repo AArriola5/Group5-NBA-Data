@@ -20,7 +20,7 @@ Added additional tables/columns for general managers and NBA divisions
 Created eerd
 ```
 
-###Topic
+### Topic
 For our topic, we would like to analyze data for NBA teams which inlcude team stats, information about the players in the rosters as well as the staff members.
 
 
