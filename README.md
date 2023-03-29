@@ -142,7 +142,7 @@ Answer:
 | Anthony Davis | Los Angeles Lakers | Forward-Center | 6-10 | 253 |
 | Devon Reed | Los Angeles Lakers | Center | 6-5 | 206 |
 
-8. "Get the player's name, team, postion, height, and weight of all players that are over 6'0" tall but under 200 pounds."
+8. "Get the player's name, team, postion, height, and weight of all players that are over 6'0" tall and under 200 pounds."
 
 Answer:
 
