@@ -23,6 +23,8 @@ Created eerd
 # EERD
 ![hw3eerd](https://user-images.githubusercontent.com/90055401/228392004-dbb54dbd-6db5-4b45-bb45-d8b08d103a96.PNG)
 
+### Keys
+
 Conference, Division, and Team primary keys will be name.
 
 Employees might have non unique names, so primary key can be (name, team).
@@ -30,6 +32,18 @@ Employees might have non unique names, so primary key can be (name, team).
 Arena primary key should be a unique arena name.
 
 Only attributes that can be null or school attributes for Employees.
+
+### Relationships
+
+Conferences should have 3 divisions. Each division will match only 1 conference.
+
+Divisions will have 5 teams, and each team is matched to only 1 division.
+
+Teams can have an uncapped amount of employees, and each employee will be on 1 team.
+
+Teams will have 1 arena, but arenas can have multiple teams.
+
+
 
 
 # Queries (in English)
