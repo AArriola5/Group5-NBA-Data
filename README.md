@@ -163,7 +163,7 @@ Answer:
 | Bismack Biyombo | Phoenix Suns | Aug 28, 1992 |
 | Gary Payton II | Golden State Warriors | Dec 01, 1992 |
 
-10. "Get the average height, weight, age, and experience of each team in the pacific division."
+10. "Get the average age, and experience of each team in the pacific division."
 
 Answer:
 | Team | Average Age | Average Experience |
