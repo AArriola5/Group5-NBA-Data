@@ -108,7 +108,7 @@ Answer:
 | Mason Plumlee | Forward-Center | 7-0 | 254 lbs | Los Angeles Clippers |
 | Mo Bamba | Guard | 7-0 | 231 lbs | Los Angeles Lakers |
 
-5. "Get the names team names, age and age as a rookie, of the players who were 25 or older in their rookie years."
+5. "Get the names teams, age and age as a rookie, of the players who were 25 or older in their rookie years."
 
 Answer:
 
