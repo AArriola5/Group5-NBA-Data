@@ -1,0 +1,51 @@
+3NF
+
+- PRIMARY KEY/COMPOSITE KEY
+
+DIVISION
+- division id:
+name: 
+conference:
+
+TEAM:
+- team id
+name:
+division:
+stats:
+arena name:
+
+ARENA:
+- arena id
+name:
+location id:
+opening year:
+max seating:
+
+LOCATION:
+- location id
+city
+state
+
+PLAYER:
+- player id
+name:
+team id:
+birth:
+exp:
+num:
+height:
+weight:
+school id:
+
+SCHOOL:
+- school id
+name
+location id
+
+GM:
+- employee id
+role: (coach, gm)
+name:
+team:
+school id:
+years hired:
