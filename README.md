@@ -63,7 +63,7 @@ Answer:
 | Golden State Warriors | 17 |
 | Los Angeles Lakers | 16 |
 
-2. "Get the Player Name, Player Number, and Position of players on the Los Angeles Lakers who joined after Head Coach "Darvin Ham" joined the Lakers."
+2. "Get the Player Name, Player Number, and Position of players on the Los Angeles Lakers who are currently a rookie (Years of Experience == 0)."
 
 Answer:
 
