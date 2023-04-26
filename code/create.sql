@@ -4,7 +4,7 @@ SET search_path TO groupfive, public;
 
 -- Creates table for the team divisions
 CREATE TABLE Division (
-    DivisionID integer NOT NULL,
+    DivisionID integer,
     Name varchar,
     Conference varchar,
     PRIMARY KEY (DivisionID)
@@ -12,7 +12,7 @@ CREATE TABLE Division (
 
 -- Creates Location table
 CREATE TABLE Location (
-    LocationID bigint NOT NULL,
+    LocationID bigint,
     City varchar,
     State varchar,
     PRIMARY KEY (LocationID)
@@ -20,10 +20,10 @@ CREATE TABLE Location (
 
 -- Creates Arena Table
 CREATE TABLE Arena (
-    ArenaID bigint NOT NULL,
+    ArenaID bigint,
     LocationID bigint,
     Name varchar,
-    OpeningYear year,
+    OpeningYear date,
     MaxSeating integer,
     PRIMARY KEY (ArenaID),
     FOREIGN KEY (LocationID) REFERENCES Location(LocationID)
@@ -31,26 +31,26 @@ CREATE TABLE Arena (
 
 -- Creates table of individual teams
 CREATE TABLE Team (
-    TeamID bigint NOT NULL,
-    Division varchar,
-    ArenaName varchar,
-    PointPerGame decimal (10,2),
-    AssistsPerGame integer,
-    ReboundsPerGame integer,
-    TurnoversPerGame decimal (10,2),
-    FieldGoalPercent decimal (10,2),
-    AssistTurnoverRatio decimal (10,2),
-    FreeThrowPercent decimal (10,2),
-    BlockedShotsPerGame decimal (10,2),
-    ThreePointPercent decimal (10,2),
-    StealsPerGame decimal (10,2),
+    TeamID bigint,
+    Name varchar,
+    ArenaID bigint,
+    PPG decimal(5, 2),
+    APG decimal(5, 2),
+    RPG decimal(5, 2),
+    TPG decimal(5, 2),
+    FG_pct decimal(5, 2),
+    AT_ratio decimal(5, 2),
+    FT_pct decimal(5, 2),
+    BSPG decimal(5, 2),
+    3PT_pct decimal(5, 2),
+    SPG decimal(5, 2),
     PRIMARY KEY (TeamID),
-    FOREIGN KEY (ArenaName) REFERENCES Arena(Name)
+    FOREIGN KEY (ArenaID) REFERENCES Arena(ArenaID)
 );
 
 -- Creates School Table
 CREATE TABLE School (
-    SchoolID bigint NOT NULL,
+    SchoolID bigint,
     LocationID bigint,
     Name varchar,
     PRIMARY KEY (SchoolID),
@@ -59,23 +59,24 @@ CREATE TABLE School (
 
 -- Creates GM Table
 CREATE TABLE Employee (
-    EmployeeID bigint NOT NULL,
+    EmployeeID bigint,
     SchoolID bigint,
-    TeamID bigint,
     Role varchar,
     Name varchar,
-    Team varchar,
-    YearsHired integer,
+    TeamID bigint,
+    StartYear integer,
     PRIMARY KEY (EmployeeID),
-    FOREIGN KEY (SchoolID) REFERENCES School(SchoolID)
+    FOREIGN KEY (SchoolID) REFERENCES School(SchoolID),
+    FOREIGN KEY (TeamID) REFERENCES Team(TeamID)
 );
 
 -- Creates Player Table
 CREATE TABLE Player (
-    PlayerID bigint NOT NULL,
+    PlayerID bigint,
     SchoolID bigint,
     TeamID bigint,
     Name varchar,
+    Position varchar,
     Birthday date,
     Experience integer,
     Number integer,
