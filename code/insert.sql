@@ -1,3 +1,5 @@
+SET search_path TO groupfive, public;
+
 INSERT INTO Division (DivisionID, Name, Conference)
 VALUES
     (1, "Atlantic", "Eastern"),
