@@ -26,3 +26,32 @@ SELECT Player.Name AS "Player Name", Player.Position AS "Position", CONCAT(Playe
 FROM Player JOIN Team ON Player.TeamID=Team.TeamID
 WHERE Player.HeightFeet >= 7
 GROUP BY Player.Name, Player.Position, "Height", Player.Weight, Team.Name;
+
+-- Query 8
+-- Player name, team name, position, height, and weight of all players over 6'0" tall and under 200 lbs
+SELECT Name, Position, CONCAT(HeightFeet, '-', HeightInches) AS "Height", Weight
+FROM Player
+WHERE (HeightFeet > 6 OR (HeightFeet = 6 AND HeightInches > 0)) AND Weight < 200;
+
+-- Query 9
+-- Get Player name, team name, and date of birth for players born in the same year as the Staples Center arena.
+SELECT p.Name, t.Name, p.Birthday
+FROM Player p
+JOIN Team t ON p.teamID = t.teamID
+JOIN Arena a on t.arenaID = a.arenaID
+WHERE (EXTRACT(YEAR FROM p.Birthday)) = (
+    SELECT EXTRACT(YEAR FROM OpeningYear)
+    FROM Arena
+    WHERE Name = 'Staples Center'
+)
+
+-- Query 10
+-- Get average age and experience of each team in pacific division
+SELECT t.Name, 
+    ROUND(AVG(EXTRACT(YEAR FROM age(current_date, p.Birthday))), 2) AS avgAge, 
+    ROUND(AVG(p.experience), 2) AS avgExp
+FROM Team t
+JOIN Player p ON p.teamID = t.teamID
+JOIN Division d ON d.DivisionID = t.DivisionID
+WHERE d.Name = 'Pacific'
+GROUP BY t.Name;
