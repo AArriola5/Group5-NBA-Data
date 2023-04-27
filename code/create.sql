@@ -42,7 +42,7 @@ CREATE TABLE Team (
     AT_ratio decimal(5, 2),
     FT_pct decimal(5, 2),
     BSPG decimal(5, 2),
-    3PT_pct decimal(5, 2),
+    _3PT_pct decimal(5, 2),
     SPG decimal(5, 2),
     PRIMARY KEY (TeamID),
     FOREIGN KEY (ArenaID) REFERENCES Arena(ArenaID)
