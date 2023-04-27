@@ -27,11 +27,30 @@ FROM Player JOIN Team ON Player.TeamID=Team.TeamID
 WHERE Player.HeightFeet >= 7
 GROUP BY Player.Name, Player.Position, "Height", Player.Weight, Team.Name;
 
+-- Query 5
+--Get the names, teams, and age  of the players who were 25 or older in their rookie years.
+SELECT p.Name, t.Name, Age
+FROM Player
+WHERE Age - Experience >= 25
+
+-- Query 6
+-- Get the name, team, and colleges of players that went to the same college as Warrior's GM Bob Myers.
+SELECT p.Name, t.Name, SchoolID
+FROM Player p
+JOIN School s
+WHERE (p.SchoolID = s.SchoolID) AND (s.Name = 'UCLA')
+
+-- Query 7
+-- "Get the player's name, team, postion, height, and weight of all centers that are 6'10" or shorter."
+SELECT p.Name, t.Name, CONCAT(HeightFeet, '-', HeightInches) AS "Height", Weight
+FROM Player
+WHERE (HeightFeet = 6  AND HeightInches >= 10) OR (HeightFeet > 6)
+
 -- Query 8
--- Player name, team name, position, height, and weight of all players over 6'3" tall and under 195 lbs
+-- Player name, team name, position, height, and weight of all players over 6'0" tall and under 200 lbs
 SELECT Name, Position, CONCAT(HeightFeet, '-', HeightInches) AS "Height", Weight
 FROM Player
-WHERE (HeightFeet > 6 OR (HeightFeet = 6 AND HeightInches >= 3)) AND Weight < 195;
+WHERE (HeightFeet > 6 OR (HeightFeet = 6 AND HeightInches > 0)) AND Weight < 200;
 
 -- Query 9
 -- Get Player name, team name, and date of birth for players born in the same year as the Staples Center arena.
