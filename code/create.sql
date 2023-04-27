@@ -1,3 +1,4 @@
+DROP SCHEMA IF EXISTS groupfive CASCADE;
 CREATE SCHEMA IF NOT EXISTS groupfive;
 
 SET search_path TO groupfive, public;
@@ -34,6 +35,7 @@ CREATE TABLE Team (
     TeamID bigint,
     Name varchar,
     ArenaID bigint,
+    DivisionID bigint,
     PPG decimal(5, 2),
     APG decimal(5, 2),
     RPG decimal(5, 2),
@@ -45,7 +47,8 @@ CREATE TABLE Team (
     _3PT_pct decimal(5, 2),
     SPG decimal(5, 2),
     PRIMARY KEY (TeamID),
-    FOREIGN KEY (ArenaID) REFERENCES Arena(ArenaID)
+    FOREIGN KEY (ArenaID) REFERENCES Arena(ArenaID),
+    FOREIGN KEY (DivisionID) REFERENCES Division(DivisionID)
 );
 
 -- Creates School Table
