@@ -113,12 +113,12 @@ Answer:
 Answer:
 
 | Player Name | Team | Age | Years of Experience | Age as a Rookie |
-| --- | --- | --- | --- | --- |
-| Torrey Craig | Phoenix Suns | 32 | 5 | 27 |
-| Damion Lee | Phoenix Suns | 30 | 5 | 25 |
-| Jock Landale | Phoenix Suns | 27 | 1 | 26 |
-| Ish Wainwright | Phoenix Suns | 28 | 1 | 27 |
-| Xavier Moon | Los Angeles Clippers | 28 | 1 | 27 |
+| --- | --- | --- | --- | 
+| Torrey Craig | Phoenix Suns | 32 | 5 |
+| Damion Lee | Phoenix Suns | 30 | 5 |
+| Jock Landale | Phoenix Suns | 27 | 1 |
+| Ish Wainwright | Phoenix Suns | 28 | 1 | 
+| Xavier Moon | Los Angeles Clippers | 28 | 1 | 
 
 6. "Get the names, team, and colleges of players that went to the same college as Warrior's GM Bob Myers."
 
