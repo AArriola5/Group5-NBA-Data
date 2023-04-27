@@ -47,11 +47,11 @@ VALUES
 
 INSERT INTO Team (TeamID, Name, ArenaID, PPG, APG, RPG, TPG, FG_pct, AT_ratio, FT_pct, BSPG, _3PT_pct, SPG)
 VALUES
-    (1, 'Sacramento Kings', 1, 121.1, 27, 42, 13.7, 49.7, 1.98, 79.4, 3.3, 37.4, 6.8),
-    (2, 'Phoenix Suns', 2, 113.5, 27, 44, 13.9, 46.8, 1.92, 79.2, 5.1, 37.6, 7.2),
-    (3, 'Los Angeles Clippers', 3, 112.9,	23,	44,	14.1, 47.3, 1.66, 78.2, 4.4, 37.7, 7.1),
-    (4, 'Golden State Warriors', 4, 118.5,	30,	44, 16.2, 47.7, 1.82, 79.3, 3.9, 38.2, 7.1),
-    (5, 'Los Angeles Lakers', 3, 116.5,	25,	46,	14.1, 47.9, 1.78, 77.8, 4.5, 34.1, 6.4);
+    (1, 'Sacramento Kings', 1, 5, 121.1, 27, 42, 13.7, 49.7, 1.98, 79.4, 3.3, 37.4, 6.8),
+    (2, 'Phoenix Suns', 2, 5, 113.5, 27, 44, 13.9, 46.8, 1.92, 79.2, 5.1, 37.6, 7.2),
+    (3, 'Los Angeles Clippers', 3, 5, 112.9, 23, 44, 14.1, 47.3, 1.66, 78.2, 4.4, 37.7, 7.1),
+    (4, 'Golden State Warriors', 4, 5, 118.5, 30, 44, 16.2, 47.7, 1.82, 79.3, 3.9, 38.2, 7.1),
+    (5, 'Los Angeles Lakers', 3, 5, 116.5,	25,	46,	14.1, 47.9, 1.78, 77.8, 4.5, 34.1, 6.4);
 
 INSERT INTO School (SchoolID, LocationID, Name)
 VALUES
