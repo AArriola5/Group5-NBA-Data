@@ -159,16 +159,14 @@ Answer:
 | Max Christie | Los Angeles Lakers | Guard | 6-5 | 190 |
 | Austin Reaves | Los Angeles Lakers | Guard | 6-5 | 197 |
 
-9. "Give the player name, team and Date of birth of players born the same year as the Phoenix Suns' stadium opened."
+9. "Get Player name, team name, and date of birth for players born in the same year as the Staples Center arena."
 
 Answer:
 
 | Player Name | Team | Date of Birth |
 | --- | --- | --- |
-| Harrison Barnes | Sacramento Kings | May 30, 1992 |
-| Damion Lee | Phoenix Suns | Oct 21, 1992 |
-| Bismack Biyombo | Phoenix Suns | Aug 28, 1992 |
-| Gary Payton II | Golden State Warriors | Dec 01, 1992 |
+| Neemias Queta | Sacramento Kings | 1999-07-13 |
+| Cole Swider	 | Los Angeles Lakers	 | 1999-05-08 |
 
 10. "Get the average age, and experience of each team in the pacific division."
 
