@@ -112,7 +112,7 @@ Answer:
 
 Answer:
 
-| Player Name | Team | Age | Years of Experience | Age as a Rookie |
+| Player Name | Team | Age | Years of Experience |
 | --- | --- | --- | --- | 
 | Torrey Craig | Phoenix Suns | 32 | 5 |
 | Damion Lee | Phoenix Suns | 30 | 5 |
