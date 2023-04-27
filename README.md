@@ -120,15 +120,15 @@ Answer:
 | Ish Wainwright | Phoenix Suns | 28 | 1 | 
 | Xavier Moon | Los Angeles Clippers | 28 | 1 | 
 
-6. "Get the names, team, and colleges of players that went to the same college as Warrior's GM Bob Myers."
+6. "Get the names, team, and Postions of players that went to UCLA."
 
 Answer:
 
 | Player Name | Team | College |
 | --- | --- | --- |
-| Russell Westbrook | Los Angeles Clippers | UCLA |
-| Norman Powell | Los Angeles Clippers | UCLA |
-| Kevon Looney | Golden State Warriors | UCLA |
+| Russell Westbrook | Los Angeles Clippers | Guard |
+| Norman Powell | Los Angeles Clippers | Guard |
+| Kevon Looney | Golden State Warriors | Forward |
 
 7. "Get the player's name, team, postion, height, and weight of all centers that are 6'10" or shorter."
 
