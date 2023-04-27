@@ -43,8 +43,7 @@ VALUES
     (1, 1, 'Golden 1 Center', '2016-01-01', 17583),
     (2, 2, 'Talking Stick Resort Arena', '1992-01-01', 18055),
     (3, 3, 'Staples Center', '1999-01-01', 19068),
-    (4, 4, 'Chase Center', '2019-01-01', 18064),
-    (5, 3, 'Staples Center', '1999-01-01', 19068);
+    (4, 4, 'Chase Center', '2019-01-01', 18064);
 
 INSERT INTO Team (TeamID, Name, ArenaID, PPG, APG, RPG, TPG, FG_pct, AT_ratio, FT_pct, BSPG, _3PT_pct, SPG)
 VALUES
