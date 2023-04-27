@@ -28,10 +28,10 @@ WHERE Player.HeightFeet >= 7
 GROUP BY Player.Name, Player.Position, "Height", Player.Weight, Team.Name;
 
 -- Query 8
--- Player name, team name, position, height, and weight of all players over 6'0" tall and under 200 lbs
+-- Player name, team name, position, height, and weight of all players over 6'3" tall and under 195 lbs
 SELECT Name, Position, CONCAT(HeightFeet, '-', HeightInches) AS "Height", Weight
 FROM Player
-WHERE (HeightFeet > 6 OR (HeightFeet = 6 AND HeightInches > 0)) AND Weight < 200;
+WHERE (HeightFeet > 6 OR (HeightFeet = 6 AND HeightInches >= 3)) AND Weight < 195;
 
 -- Query 9
 -- Get Player name, team name, and date of birth for players born in the same year as the Staples Center arena.
